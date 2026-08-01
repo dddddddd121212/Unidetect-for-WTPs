@@ -1,0 +1,28 @@
+{
+    "device_config":[
+        {
+            "device_id":0,
+            "model_config":[
+                {
+                    "infer_thread_name":"infer_thread_0",
+                    "model_path":"../model/yolov7x.om",
+                    "model_width":640,
+                    "model_heigth":640,
+                    "model_batch":1,
+                    "postnum":2,
+					"frames_per_second":10,
+                    "io_info":[
+                        {
+                            "input_path":"rtsp://admin:shuixiang12@192.168.1.117/Streaming/Channels/1",
+                            "input_type":"rtsp",
+                            "output_path":"../out/output_car0.mp4",
+                            "output_type":"stdout",
+                            "channel_id":0
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
